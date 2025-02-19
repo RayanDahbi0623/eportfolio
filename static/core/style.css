@@ -1,0 +1,25 @@
+{% load static %}
+h1, h2, h3 {
+	background-color: #767d87;
+}
+
+body {
+         background-color:  #000000
+}
+
+/* This sample code centers your overall content on the page */
+body {
+    max-width: 700px;
+    margin: auto;
+}
+
+/* This code centers the two largest heading styles within your overall content */
+h1, h2 {
+    text-align: center;
+}
+h1 {
+  color: red;
+}
+p {
+  color: blue;
+}
