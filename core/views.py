@@ -8,3 +8,11 @@ def hellotime(request):
 
 def screenprint(request):
     return render(request, "core/screenprint.html")
+
+
+    now = datetime.datetime.now()
+    return HttpResponse(f"<h1>Hello, World!</h1> <p>It's {now}.</p>")
+
+def blackbox(request):
+    return render(request, "core/blackbox.html")
+

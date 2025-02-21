@@ -1,0 +1,8 @@
+{% load static %}
+h1, h2, h3 {
+	background-color: #767d87;
+}
+
+body { 
+         background-color:  #767d87
+}
